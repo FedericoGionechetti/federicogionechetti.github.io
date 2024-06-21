@@ -1,0 +1,147 @@
+.titolo_pagina {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    color: black ;
+    text-decoration: overline;
+    text-decoration-color:red ;
+    position: relative;
+    top: 10dvb;
+    left: 57vb;
+    width: 800px;
+
+}
+
+.paragrafo_scatola {
+    float: right;                                              
+    margin-right: 10dvw;                                       /* dvw per mettere immagine a sx in percentuale (dinamic viewport width, margin right */
+    background-image: url('tovagliolo.png');
+    background-size: contain;
+    aspect-ratio: 204 / 461;
+    background-repeat: no-repeat;
+    height: 80dvh;
+    
+ 
+}
+.lista_link {
+    
+    padding-top: 110%;                                          /* Percentuale relativa al div */
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.spazio_link {
+    margin-bottom: 120px;
+    
+}
+
+.immagine_putizza {
+    position: relative;
+    top: 15dvb;
+    left: 32dvb;
+}
+
+.stemma_trieste {
+    height: 100px;
+    top: 40px;
+    right: 60px;
+    position: fixed;
+    
+}
+
+.titolo {
+    text-align: center;
+    top: 10dvh;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: #dd0303;
+    text-decoration-thickness: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragrafo_storia {
+    margin-right:40% ;
+    margin-left: 5%;
+    margin-top: 9%;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.immagine_storia {
+    position: absolute;
+    right: 10%;
+    top: 22%;
+
+}
+
+.immagine_storia2 {
+    width: 15%;
+    aspect-ratio: 2/1;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+}
+
+.descrizione_immagine {
+    margin-top: 8px;
+}
+
+.link_storia {
+    margin-right:40% ;
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: x-large;
+}
+
+.riquadri {
+    width: 15em; 
+    border: 5px solid #dd0303;
+    padding: 8px 12px;
+    background-color: rgb(221, 168, 168);
+  }
+  
+.titolo_ingredienti {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    color: black ;
+    text-decoration: overline;
+    text-decoration-color:red ;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.container_impasti {
+    
+    
+    width: 40%;
+  
+}
+
+.figure_impasti figure {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container_testo {
+    width: 55%;
+
+}
+
+.figure_impasti img {
+    width: 100%;
+    height: auto;
+}
+
+.container_finale {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2% 10%;
+}
